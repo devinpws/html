@@ -1,2 +1,2 @@
-# Html Tutorials
+# HTML Tutorials
 
