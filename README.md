@@ -41,4 +41,108 @@ Untuk menampilkan gambar di HTML dapat menggunakan tag img. isinya adalah src ya
 ```
  <img src="img.jpg" width="500" height="600" alt=""> 
 ```
+## Membuat List
+Ada dua tipe list yang dapat dibuat yaitu tipe ul dan tipe li. tipe ul hanya akan mencetak lingkaran penanda list. untuk menjadikan nomor yang berurutan maka gunakan ol atau order list.
+```
+<!--List-->
+        <ul>
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+        </ul>
 
+        <ol>
+            <li>List 1</li>
+            <li>List 2</li>
+            <li>List 3</li>
+        </ol>
+```
+## Membuat Tabel
+Tabel dalam HTML sendiri terdiri atas head dan body. head adalah yang menjadi keterangan isi dari body. body adalah nilai yang ada dalam tabel atau isi tabel tersebut.
+```
+ <!--Table-->
+        <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Email</th>
+                <th>Usia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Devin</td>
+                <td>dev@insomnia.com</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Purnawan</td>
+                <td>Pur@insomnia.com</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Syah</td>
+                <td>Syah@insomnia.com</td>
+                <td>32</td>
+            </tr>
+        </tbody>
+        </table>
+```
+## Membuat Form di HTML
+Form adalah salah satu hal yang penting karena banyak digunakan dalam membangun kerangka website. berikut adalah implementasi form dalam HTML.
+```
+<!--form-->
+        <form action="process.php" method="POST">
+            <div>
+                <label> First Name </label>
+                <input type="text" name="firsName" placeholder="Masukkan Nama Awal">
+            </div>
+            <br>
+            <div>
+                <label> Last Name </label>
+                <input type="text" name="lastName">
+            </div>
+            <br>
+            <div>
+                <label> Email </label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label> Gender </label>
+                <select name="gender">
+                    <option value="1">Man</option>
+                    <option value="2">Woman</option>
+                    <option value="0">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label> Pesan </label>
+                <textarea name="pesan" cols="20" rows="5"></textarea>
+            </div>
+            <br>
+            <div>
+                <label> Age </label>
+                <input type="number" name="age" value="20">
+            </div>
+            <br>
+            <div>
+                <label> Birthday </label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <div>
+                <input type="submit" name="Submit" value="Submit" >
+            </div>
+        </form>
+
+```
+## Button dalam HTML
+Button atau tombol dapat dibuat dengan tag button yang ada dalam HTML.
+```
+<!--button-->
+        <button>Klik Sekarang</button>
+```
+
+Sebenarnya masih banyak lagi tag yang ada di HTML, semua yang berada di atas hanya sebagiannya aja. teman-teman dapat mencarinya di browser, sangat banyak referensi HTML yang tersedia.
