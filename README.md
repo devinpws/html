@@ -14,6 +14,6 @@ Untuk memulai HTML kita dapat menggunakan format terbaru yaitu HTML5.
 </body>
 </html>`
 
-Code tersebut terdiri atas <head> dan <body>. <head> berfokus pada pengaturan utama dari web yang akan dibangun seperti judul dan lainnya. <body> berfungsi mengatur tampilan web atau interface web.
+Code tersebut terdiri atas head dan body. head berfokus pada pengaturan utama dari web yang akan dibangun seperti judul dan lainnya. body berfungsi mengatur tampilan web atau interface web.
   
 
