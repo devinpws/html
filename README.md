@@ -36,4 +36,9 @@ Teks link berfungsi untuk menghubungkan page yang satu dengan page yang lainnya,
 ```
 <a class="button" href="#">Read More</a>
 ```
+## Menampilkan Gambar
+Untuk menampilkan gambar di HTML dapat menggunakan tag img. isinya adalah src yaitu source dari gambar yang akan ditampilkan, width dan height untuk mengatur tinggi dan lebar serta alt untuk memberikan bentuk teks atau caption ketika gambar tidak loading karena jaringan atau kendala lainnya.
+```
+ <img src="img.jpg" width="500" height="600" alt=""> 
+```
 
